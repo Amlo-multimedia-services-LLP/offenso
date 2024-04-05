@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offenso Hacking Academy - Coming Soon</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #00ff00;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 40px;
+        }
+
+        .countdown {
+            font-size: 1.5rem;
+        }
+
+        .logo {
+            width: 150px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- <img src="offenso_logo.png" alt="Offenso Hacking Academy" class="logo"> -->
+    <h1>Offenso Hacking Academy</h1>
+    <p>Coming Soon...</p>
+    <div class="countdown">
+        <p id="demo"></p>
+    </div>
+
+    <!-- <script> -
+        // Set the date we're counting down to
+        var countDownDate = new Date("Apr 30, 2024 00:00:00").getTime();
+
+        // Update the countdown every 1 second
+        var x = setInterval(function() {
+
+            // Get the current date and time
+            var now = new Date().getTime();
+
+            // Calculate the remaining time
+            var distance = countDownDate - now;
+
+            // Calculate days, hours, minutes and seconds
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            // Display the countdown
+            document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+            + minutes + "m " + seconds + "s ";
+
+            // If the countdown is over, display message
+            if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("demo").innerHTML = "EXPIRED";
+            }
+        }, 1000);
+    <!-- </script> -->
+</body>
+</html>
